@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header img {
+      width: 120px;
+      border-radius: 50%;
+      margin-top: 1rem;
+    }
+    header h1 {
+      margin: 1rem 0 0.5rem;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+    section {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    h2 {
+      margin-bottom: 1rem;
+      color: #444;
+    }
+    .about, .projects, .skills {
+      margin-bottom: 3rem;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li {
+      background: #fff;
+      margin-bottom: 0.5rem;
+      padding: 0.75rem 1rem;
+      border-left: 5px solid #007BFF;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>John Doe</h1>
+    <p>Full Stack Web Developer</p>
+    <img src="profile.jpg" alt="John Doe">
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm John Doe, a passionate web developer with a strong background in computer science. I specialize in building responsive and scalable web applications. With a degree in Computer Engineering and over 3 years of experience, I bring a deep understanding of both front-end and back-end development.</p>
+  </section>
+
+  <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>React, Vue, Angular</li>
+      <li>Node.js, Express, MongoDB</li>
+      <li>Git, GitHub, CI/CD</li>
+    </ul>
+  </section>
+
+  <section class="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Portfolio Website:</strong> A modern personal website to showcase my skills and work.</li>
+      <li><strong>Task Manager App:</strong> A MERN stack application for managing daily tasks and productivity.</li>
+      <li><strong>E-commerce Platform:</strong> Full-featured e-commerce site with user authentication, product listings, and checkout functionality.</li>
+    </ul>
+  </section>
+</body>
+</html>
